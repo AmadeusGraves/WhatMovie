@@ -1,0 +1,6 @@
+# Module proyectoaiss
+# RPC service class, partial path of RPC policy file
+whatMovie.client.rcp.YoutubeService, 44BDFBD3D0F420C090CC5ED06D13D1CB.gwt.rpc
+whatMovie.client.rcp.WMService, 06305CED6479C785D4EB69C443574FCD.gwt.rpc
+whatMovie.client.rcp.SpotifyService, 25EB9293C53ADECE3108E41D7623CB89.gwt.rpc
+whatMovie.client.rcp.GoogleService, 325C92B19E64B161517F216ED5D339AA.gwt.rpc

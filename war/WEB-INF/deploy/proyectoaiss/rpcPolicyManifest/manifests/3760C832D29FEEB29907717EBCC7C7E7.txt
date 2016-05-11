@@ -1,0 +1,2 @@
+serviceClass: whatMovie.client.rcp.WMService
+path: 06305CED6479C785D4EB69C443574FCD.gwt.rpc

@@ -1,0 +1,2 @@
+serviceClass: whatMovie.client.rcp.SpotifyService
+path: 25EB9293C53ADECE3108E41D7623CB89.gwt.rpc

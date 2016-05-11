@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+              http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	version="2.5" xmlns="http://java.sun.com/xml/ns/javaee">
+
+	<!-- Servlets -->
+
+	<servlet>
+		<servlet-name>greetServlet</servlet-name>
+		<servlet-class>whatMovie.server.rcp.GoogleServiceImpl</servlet-class>
+	</servlet>
+
+
+	<servlet-mapping>
+		<servlet-name>greetServlet</servlet-name>
+		<url-pattern>/proyectoaiss/SearchGoogle</url-pattern>
+	</servlet-mapping>
+
+
+<servlet>
+	<servlet-name>WMServiceImpl</servlet-name>
+	<servlet-class>whatMovie.server.rcp.WMServiceImpl</servlet-class>
+</servlet>
+
+
+	<servlet-mapping>
+		<servlet-name>WMServiceImpl</servlet-name>
+		<url-pattern>/proyectoaiss/SearchSinopsis</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>youtube</servlet-name>
+		<servlet-class>whatMovie.server.rcp.YoutubeServiceImpl</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>youtube</servlet-name>
+		<url-pattern>/proyectoaiss/YoutubeService</url-pattern>
+	</servlet-mapping>
+
+		<servlet>
+		<servlet-name>Spotify</servlet-name>
+		<servlet-class>whatMovie.server.rcp.SpotifyServiceImpl</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Spotify</servlet-name>
+		<url-pattern>/proyectoaiss/SpotifyService</url-pattern>
+	</servlet-mapping>
+	
+
+	<!-- Default page to serve -->
+	<welcome-file-list>
+		<welcome-file>ProyectoAISS.html</welcome-file>
+	</welcome-file-list>
+
+
+
+</web-app>

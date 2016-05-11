@@ -1,0 +1,2 @@
+serviceClass: whatMovie.client.rcp.YoutubeService
+path: 44BDFBD3D0F420C090CC5ED06D13D1CB.gwt.rpc

@@ -1,0 +1,2 @@
+serviceClass: whatMovie.client.rcp.GoogleService
+path: 325C92B19E64B161517F216ED5D339AA.gwt.rpc
